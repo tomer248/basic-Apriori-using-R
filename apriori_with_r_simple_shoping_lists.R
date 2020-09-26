@@ -1,12 +1,12 @@
-
+#importing the library
 library(tidyverse) # metapackage of all tidyverse packages
+
 #This code will help us set rules to figure out whice prodect should we reccomend.
 #it is using Apriori - Association Rule Learning to classify the rules.
 # if someone bought product x it is likely he would be interested in product y.
 
 list.files(path = "../input")
 
-# %% [code]
 # Apriori
 
 # Data Preprocessing
